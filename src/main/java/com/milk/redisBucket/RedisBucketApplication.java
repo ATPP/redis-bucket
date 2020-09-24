@@ -8,14 +8,12 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.bind.annotation.ControllerAdvice;
-import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableCaching
 @ComponentScan("com.milk")
 @ControllerAdvice
-@EnableSwagger2
 @EnableTransactionManagement
 @EnableAsync
 public class RedisBucketApplication {
