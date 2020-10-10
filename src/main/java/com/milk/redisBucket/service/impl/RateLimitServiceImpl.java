@@ -75,6 +75,7 @@ public class RateLimitServiceImpl implements RateLimitService {
      * @return
      */
 
+
     @Override
     public Token accquireToken(String key) {
         return accquireToken(key, 1);
